@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "twitter-blue": "#1D9BF9",
+        "signup-hover": "#1a8cd8",
+        "login-hover": "#1d9bf01a",
+        "modal-background": "#00000066",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
