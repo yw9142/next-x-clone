@@ -6,6 +6,7 @@ const config: Config = {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  prefix: "",
   theme: {
     extend: {
       colors: {
@@ -13,14 +14,13 @@ const config: Config = {
         "signup-hover": "#1a8cd8",
         "login-hover": "#1d9bf01a",
         "modal-background": "#00000066",
+        "bg-search": "#4287f5",
       },
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      width: {
+        inherit: "inherit",
       },
     },
   },
   plugins: [],
-};
+} satisfies Config;
 export default config;
